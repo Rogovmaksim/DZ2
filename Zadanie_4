@@ -1,0 +1,7 @@
+proff = ['инженер-конструктор Игорь', 'главный бухгалтер МАРИНА', 'токарь высшего разряда нИКОЛАЙ', 'директор аэлита']
+for i in range(0,len(proff)):
+    proff_new = proff[i]
+    proff_new = proff_new.split()
+    name = proff_new[-1:]
+    name = " ".join(name)
+    print("Привет,",name.capitalize())
